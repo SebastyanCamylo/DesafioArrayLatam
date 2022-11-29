@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>DESAFIO LATAM</title>
+  </head>
+  <body>
+    <section class="text-center seeker">
+      <article class="rooms">
+        <p>Cantidad de cuartos</p>
+        <input type="text" id="rooms" />
+        <div>
+          <p>Metros cuadrados</p>
+        </div>
+      </article>
+      <article class="d-flex justify-content-evenly metters">
+        <div>
+          <p>Desde:</p>
+          <input type="text" id="metterS" />
+        </div>
+        <div>
+          <p>Hasta:</p>
+          <input type="text" id="metterU" />
+        </div>
+      </article>
+      <button class="btn button" id="searchButton">Buscar</button>
+    </section>
+    <section class="card-container">
+      <h2>Total: <span id="total"></span></h2>
+      <span class="galery" id="galeria"></span>
+    </section>
+
+    <script type="module" src="assets/js/index.js"></script>
+  </body>
+</html>
